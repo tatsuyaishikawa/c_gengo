@@ -1,0 +1,205 @@
+2014/09/23 04:27:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii2.shoseki_itiran' doesn't exist. The SQL statement executed was: SHOW FULL COLUMNS FROM `shoseki_itiran`.
+in /var/www/html/test003.rexvirt.jp/app/index.php (13)
+2014/09/23 14:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=login
+---
+2014/09/23 14:37:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=login
+---
+2014/09/23 14:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contact".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('contact')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=contact
+---
+2014/09/24 06:14:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=login
+---
+2014/09/24 08:39:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "login".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('login')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=login
+---
+2014/09/28 05:06:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /var/www/html/test003.rexvirt.jp/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/test003.rexvirt.jp/app/protected/yiic.php(7): require_once('/var/www/html/t...')
+#14 /var/www/html/test003.rexvirt.jp/app/protected/yiic(4): require_once('/var/www/html/t...')
+#15 {main}
+---
+2014/09/28 05:07:40 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/
+---
+2014/09/28 05:09:30 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /var/www/html/test003.rexvirt.jp/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/test003.rexvirt.jp/app/protected/yiic.php(7): require_once('/var/www/html/t...')
+#14 /var/www/html/test003.rexvirt.jp/app/protected/yiic(4): require_once('/var/www/html/t...')
+#15 {main}
+---
+2014/09/28 05:11:09 [error] [exception.CException] exception 'CException' with message 'SayController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SayController.php(10): CController->render('index', Array)
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SayController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('say')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=say
+---
+2014/09/28 05:13:19 [error] [exception.CException] exception 'CException' with message 'SayController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', Array, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SayController.php(10): CController->render('index', Array)
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SayController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('say')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=say
+---
+2014/09/28 05:50:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: could not find driver' in /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php:381
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(442): CModule->getComponent('db')
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(451): MigrateCommand->getDbConnection()
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(482): MigrateCommand->getMigrationHistory(-1)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/cli/commands/MigrateCommand.php(84): MigrateCommand->getNewMigrations()
+#7 [internal function]: MigrateCommand->actionUp(Array)
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs(Object(MigrateCommand), Array)
+#9 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleCommandRunner.php(67): CConsoleCommand->run(Array)
+#10 /var/www/html/test003.rexvirt.jp/yii/framework/console/CConsoleApplication.php(91): CConsoleCommandRunner->run(Array)
+#11 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CConsoleApplication->processRequest()
+#12 /var/www/html/test003.rexvirt.jp/yii/framework/yiic.php(33): CApplication->run()
+#13 /var/www/html/test003.rexvirt.jp/app/protected/yiic.php(7): require_once('/var/www/html/t...')
+#14 /var/www/html/test003.rexvirt.jp/app/protected/yiic(4): require_once('/var/www/html/t...')
+#15 {main}
+---
+2014/09/28 08:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'リクエスト"books"を解決できません。' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=say
+---
+2014/09/28 08:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "books".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=say
+---
+2014/09/28 08:33:16 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=say
+---
+2014/09/28 08:42:02 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/index.php?r=site
+---
+2014/09/30 13:07:30 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "index".' in /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php:878
+Stack trace:
+#0 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(782): CController->renderPartial('index', NULL, true)
+#1 /var/www/html/test003.rexvirt.jp/app/protected/controllers/SiteController.php(32): CController->render('index')
+#2 /var/www/html/test003.rexvirt.jp/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionIndex()
+#3 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /var/www/html/test003.rexvirt.jp/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(282): CController->run('')
+#7 /var/www/html/test003.rexvirt.jp/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#8 /var/www/html/test003.rexvirt.jp/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /var/www/html/test003.rexvirt.jp/app/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/test003.rexvirt.jp/app/
+---

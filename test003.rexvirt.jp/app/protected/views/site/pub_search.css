@@ -1,0 +1,57 @@
+#iti{
+  width:600px;
+  height:550px;
+  border:2px solid #b22222;
+  background-color:white;
+  display:inline-block;
+}
+
+#kensaku{
+  background-color:white;
+  width:500px;
+  height:150px;
+  border:2px solid red;
+  position:relative;
+  top:50px;
+  left:50px;
+  display:inline-block;
+}
+ 
+#san{
+  background-color:blue;
+  color:white;
+  position:relative;
+  }
+
+#yon{
+  background-color:blue;
+  color:white;
+  position:relative;
+  top:10px;
+}
+
+#kekka{
+  width:600px;
+  position:absolute;
+  top: 300px;
+  left:100px;
+}
+
+ tr:hover{
+  background-color:blue;
+}
+
+#buttons{
+  position:absolute;
+  top:250px;
+  left:400px;
+}
+
+#headline{
+ padding: 0.8em;
+  color: white;
+  font-family: Roboto, sans-serif;
+  background-image: url(backgroundimage.jpg);
+  background-size: cover;
+ }
+
